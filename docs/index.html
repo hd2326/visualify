@@ -1,0 +1,41 @@
+<!--
+ * @Author       : Lihao leolihao@arizona.edu
+ * @Date         : 2023-11-20 15:41:22
+ * @FilePath     : \visualifyc:\Users\leoli\OneDrive\桌面\build\index.html
+ * @Description  : 
+ * Copyright (c) 2023 by Lihao (leolihao@arizona.edu), All Rights Reserved.
+-->
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="./static/logo/favicon.ico" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="description" content="Web site created using visualifyjs" />
+    <link rel="apple-touch-icon" href="./static/logo/logo192.png" />
+    <link rel="manifest" href="./manifest.json" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+    <title>Visualifyjs - Demo</title>
+    <script src="./resources/Vnodedata.js"></script>
+    <script src="./resources/mainpage.js"></script>
+    <script src="./resources/chromium.js"></script>
+    <script src="./resources/chromiumn.js"></script>
+    <script defer="defer" src="https://lgcyaxi.net/visualify/build/dist/visualify.js"></script>
+</head>
+
+<body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="app" style="text-align:center"></div>
+    <script>
+        window.$visualify = {
+            header: header,
+            footer: footer,
+            main: {
+                "[Chromium new]": chromiumn
+            }
+        }
+    </script>
+</body>
+
+</html>

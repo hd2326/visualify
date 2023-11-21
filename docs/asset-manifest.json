@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/visualify/static/css/visualify.css",
+    "main.js": "/visualify/static/js/visualify.js",
+    "static/js/visualify.chunk1.js": "/visualify/static/js/visualify.chunk1.js",
+    "index.html": "/visualify/index.html",
+    "visualify.css.map": "/visualify/static/css/visualify.css.map",
+    "visualify.js.map": "/visualify/static/js/visualify.js.map",
+    "visualify.chunk1.js.map": "/visualify/static/js/visualify.chunk1.js.map"
+  },
+  "entrypoints": [
+    "static/css/visualify.css",
+    "static/js/visualify.js"
+  ]
+}
